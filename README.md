@@ -1,4 +1,6 @@
-# Led-control-using-Arduino
+### NAME:AJAY.J
+### REG NO:24004969
+# EXPERIMENT 1: Led-control-using-Arduino
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
@@ -58,9 +60,19 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
+![image](https://github.com/user-attachments/assets/fe2f8ca1-f45a-41f6-ae3e-05d06a278a07)
 
 ## PROGRAM
+void setup() { // put your setup code here, to run once: pinMode(13,OUTPUT); pinMode(2,pinMode); }
 
+void loop() { int buttonstatus=digitalRead(2); if(buttonstatus==HIGH) digitalWrite(13,HIGH); else digitalWrite(13,LOW); delay(1000); }
 ## OUTPUT
+LED OFF
+
+![image](https://github.com/user-attachments/assets/99550b18-49ba-4b80-be4b-19f0bdc0dde8)
+LED ON
+
+![image](https://github.com/user-attachments/assets/05ab3a33-10c5-4328-824c-6484feeccdc5)
 
 ## RESULT
+Design and implemented a system for LED control using an Arduino microcontroller and a push button successfully .
