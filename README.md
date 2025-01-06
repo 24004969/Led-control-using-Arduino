@@ -1,6 +1,6 @@
 ### NAME:AJAY.J
 ### REG NO:24004969
-# EXPERIMENT 1: Led control using Arduino
+# EXPERIMENT 1: Led control using Arduino and push button 
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
